@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender 2025</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <button id="prev-month">&lt;</button>
+            <h1 id="month-year"></h1>
+            <button id="next-month">&gt;</button>
+        </div>
+        <div class="days">
+            <div class="day">Ma</div>
+            <div class="day">Di</div>
+            <div class="day">Wo</div>
+            <div class="day">Do</div>
+            <div class="day">Vr</div>
+            <div class="day">Za</div>
+            <div class="day">Zo</div>
+        </div>
+        <div class="dates" id="dates"></div>
+        <div class="event-input">
+            <input type="text" id="event-text" placeholder="Voeg een evenement toe">
+            <button id="add-event">Toevoegen</button>
+        </div>
+        <div id="event-details" class="event-details"></div> <!-- Event details popup -->
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
